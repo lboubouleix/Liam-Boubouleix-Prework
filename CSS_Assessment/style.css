@@ -1,56 +1,35 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-  }
-
-  header {
-    background: #d21034;
-  }
-
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: white;
     text-align: center;
-    background: #333;
-  }
+    margin: auto;
+}
 
-  h2 {
-    font-size: 24px;
-  }
+.middle {
+    height: 10cm;
+}
 
-  a {
-    color: #d21034;
-  }
+#nav {
+    background: dimgrey;
+}
 
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
-  #main-bio,
-  #contact-info,
-  #bio-image {
+#left {
+    background: blue;
     float: left;
-  }
+    width: 50%;
+    height: 8cm;
+    line-height: 6.5cm;
+}
 
-  #main-bio {
-    width: 70%;
-  }
+#right {
+    background: red;
+    float: right;
+    width: 25%;
+    height: 8cm;
+    line-height: 6.5cm;
+}
 
-  #contact-info {
-    width: 30%;
-  }
-
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
+#footer {
+    background: green;
+}
