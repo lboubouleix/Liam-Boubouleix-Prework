@@ -7,38 +7,34 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  text-align: left;
-  color: white;
-  font-size: 12pt;
-  line-height: 1pt;
+.heading_font {
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h2 {
-  text-align: center;
-  color: black;
-  font-size: 9pt;
-  line-height: 1pt;
-
+.teal {
+  background-color: #4aaaa5;
 }
 
-h3 {
-  text-align: center;
-  color: white;
-  font-size: 48pt;
-  line-height: 1pt;
-  height: 40pt,
-    
+.regfont {
+  color: #777777;
 }
 
-h4 {
-  margin: auto;
-  width: 90pt;
-  height: 14pt;
-  border: 2pt solid white;
-  padding: 5pt;
-  text-align: center;
-  color: white;
-  font-size: 9pt;
-  line-height: 12pt;
+.header_bg {
+  background-color: #ffffff;
+}
+
+.border_color {
+  border-color: #cccccc;
+}
+
+.footer_bg {
+  background-color: #666666;
+}
+
+.bg {
+  background-color: #ffffff;
+}
+
+.main_border_color {
+  border-color: #dddddd;
 }
